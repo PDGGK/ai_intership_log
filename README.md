@@ -2,6 +2,13 @@
 
 欢迎来到本仓库！这是我在大一升大二期间的技术学习与实践记录，主要涵盖以下领域：
 
+<div align="center">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AI-FF6F61?style=for-the-badge&logo=ai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+</div>
+
 - 🐳 **Docker生态系统**：从基础配置到最佳实践，探索容器化技术
 - 🤖 **AI应用开发**：深度学习模型优化、LLM应用、多模态系统
 - 🔍 **广告审核系统**：基于AI的智能审核流程、多模态分析
@@ -38,6 +45,12 @@
 ---
 
 ## 📂 目录结构
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Deep_Learning-FF6F61?style=flat-square&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+</div>
 
 0. [[实习日志/0|💻 深度学习模型优化实践：显存管理与动态批处理]]  
 1. [[实习日志/1|🖼️ 图像对比系统优化：增强配置与错误处理机制]]  
@@ -329,7 +342,7 @@
 - **文件**: [实习日志/29.md](实习日志/29.md)  
 - **概要**: 构建了实时数据处理框架，并优化了关键路径。  
 - **关键技术**:  
-  - �� 流处理框架  
+  - 🔄 流处理框架  
   - ⏰ 任务调度  
   - 💾 内存管理  
 
@@ -471,6 +484,16 @@
 
 ## 🛠️ 技术栈
 
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+</div>
+
 本日志涵盖以下技术领域：
 
 - **编程语言与框架**: Python, FastAPI  
@@ -483,6 +506,11 @@
 ---
 
 ## 🚀 如何使用（Quick Start）
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white"/>
+</div>
 
 1. **克隆本仓库**  
    ```bash
@@ -498,6 +526,11 @@
 ---
 
 ## 🎯 未来计划
+
+<div align="center">
+  <img src="https://img.shields.io/badge/CI/CD-2088FF?style=flat-square&logo=github-actions&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Automation-4285F4?style=flat-square&logo=google-cloud&logoColor=white"/>
+</div>
 
 - ⚡ **扩展内容**：增补更多代码示例与行业应用案例，为读者提供直观的可执行性示例。  
 - 🤝 **社区合作**：期待更多研究者与工程师的意见与分享，共同丰富本仓库内容。  
