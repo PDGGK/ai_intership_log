@@ -514,7 +514,7 @@
 
 1. **克隆本仓库**  
    ```bash
-   git clone https://github.com/yourusername/yourrepo.git
+   git clone https://github.com/PDGGK/ai_intership_log.git
    ```
 
 2. **阅读或借鉴日志**  
