@@ -1,6 +1,9 @@
 # 技术探索日志合集 🚀
+# Technical Exploration Log Collection 🚀
 
 欢迎来到本仓库！这是我在大一升大二期间的技术学习与实践记录，主要涵盖以下领域：
+
+Welcome to this repository! This is a record of my technical learning and practice during my transition from freshman to sophomore year, primarily covering the following areas:
 
 <div align="center">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
@@ -15,42 +18,27 @@
 - 🐍 **Python工程实践**：企业级应用开发、异步编程、性能优化
 - ⚙️ **开发环境配置**：虚拟化技术、网络配置、跨平台开发
 
+- 🐳 **Docker Ecosystem**: From basic configuration to best practices, exploring containerization technology
+- 🤖 **AI Application Development**: Deep learning model optimization, LLM applications, multimodal systems
+- 🔍 **Advertisement Review Systems**: AI-based intelligent review processes, multimodal analysis
+- 🐍 **Python Engineering Practice**: Enterprise application development, asynchronous programming, performance optimization
+- ⚙️ **Development Environment Configuration**: Virtualization technology, network configuration, cross-platform development
+
 本合集系统性地记录了从基础配置到复杂系统开发的全过程，包含大量实践经验与技术难点解决方案。希望这些内容能为其他初学者提供参考，帮助大家在技术学习道路上少走弯路。
 
-## 📝 如何使用双向链接
+This collection systematically documents the entire process from basic configuration to complex system development, including extensive practical experience and solutions to technical challenges. I hope these contents can serve as a reference for other beginners and help everyone avoid detours on their technical learning journey.
 
-本知识库使用 [Foam](https://foambubble.github.io/foam/) 进行管理，支持双向链接功能。以下是使用说明：
-
-### Foam 设置
-1. 在 VS Code 中安装 [Foam](https://marketplace.visualstudio.com/items?itemName=foam.foam-vscode) 插件
-2. 安装推荐的插件：
-   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-   - [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
-   - [Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)
-****
-### 双向链接语法
-- 使用 `[[文件名]]` 创建链接，例如：[[实习日志/0]]
-- 使用 `[[文件名|显示文本]]` 创建自定义显示文本的链接
-- 使用 `[[文件名#标题]]` 链接到特定标题
-
-### 快捷操作
-- `Ctrl/Cmd + Click` 链接：跳转到链接目标
-- `Alt + Click` 链接：在新窗口打开
-- `Ctrl/Cmd + Shift + F` ：全局搜索引用
-
-### 图谱视图
-- 使用 Foam 的图谱视图（Graph Visualization）查看知识点关联
-- 点击 VS Code 左侧边栏的图谱图标，可视化浏览所有文档关联
-
----
 
 ## 📂 目录结构
+## 📂 Directory Structure
 
 <div align="center">
   <img src="https://img.shields.io/badge/Deep_Learning-FF6F61?style=flat-square&logo=pytorch&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
 </div>
+
+### 中文日志 (Chinese Logs)
 
 0. [[实习日志/0|💻 深度学习模型优化实践：显存管理与动态批处理]]  
 1. [[实习日志/1|🖼️ 图像对比系统优化：增强配置与错误处理机制]]  
@@ -99,455 +87,273 @@
 44. [[实习日志/44|✅ 基于 Pydantic 的规则模型设计：类型安全与数据验证]]  
 45. [[实习日志/45|🏗️ 规则结构的优化与简化：提升系统效率的实践探索]]  
 
----
-
-## 🌟 内容概要
-
-### 0. 深度学习模型优化实践
-- **相关文档**: [[实习日志/0]]
-- **关联主题**: [[实习日志/34|GPU资源管理与优化]], [[实习日志/12|图像对比系统的自适应内存管理]]
-- **概要**: 提出深度学习训练的显存优化策略，探索了动态批处理技术和多GPU环境下的高效资源分配方案。  
-- **关键技术**:  
-  - 🌀 动态批处理  
-  - 💾 显存分配优化  
-  - 🏭 训练流水线构建  
-
-### 1. 图像对比系统优化
-- **相关文档**: [[实习日志/1]]
-- **关联主题**: [[实习日志/12|图像对比系统的自适应内存管理]], [[实习日志/24|视觉识别与LLM优化]]
-- **概要**: 对图像对比系统进行了内存管理优化及错误处理改进，显著提升了系统的稳定性与扩展性。  
-- **关键技术**:  
-  - 🖼️ 图像特征提取  
-  - 🔧 内存池优化  
-  - 🔖 配置文件生成  
-
-### 2. Docker与Conda环境配置
-- **相关文档**: [[实习日志/2]]
-- **关联主题**: [[实习日志/3|Docker生态系统]], [[实习日志/4|Docker环境配置优化]], [[实习日志/5|Docker最佳实践]]
-- **概要**: 探讨Docker与Conda在开发环境构建中的整合策略，解决依赖版本冲突及环境隔离问题。  
-- **关键技术**:  
-  - 🐳 容器分层管理  
-  - 🌐 多环境协作  
-  - ♻️ 版本兼容性校验  
-
-### 3. Docker生态系统与开发环境配置
-- **文件**: [实习日志/3.md](实习日志/3.md)  
-- **概要**: 记录了在Docker生态系统中优化开发环境的实践经验，包括镜像源优化和工具链整合。  
-- **关键技术**:  
-  - ⚙️ 高效Dockerfile编写  
-  - 📦 多阶段构建  
-  - 🚀 镜像缓存层管理  
-
-### 4. Docker环境配置优化
-- **文件**: [实习日志/4.md](实习日志/4.md)  
-- **概要**: 针对Docker镜像源配置和网络优化进行了全面剖析，并提出了提升系统性能的实践策略。  
-- **关键技术**:  
-  - 🌐 容器网络优化  
-  - ⏬ 镜像源加速配置  
-  - 📚 系统依赖库管理  
-
-### 5. Docker环境配置与最佳实践
-- **文件**: [实习日志/5.md](实习日志/5.md)  
-- **概要**: 结合实际项目案例，深入阐述了Docker环境配置的最佳实践，涵盖从开发到生产环境的全生命周期。  
-- **关键技术**:  
-  - 🏭 多阶段构建流程优化  
-  - 🔗 容器化依赖管理  
-  - 💡 生产环境监控  
-
-### 6. Langchain-Chatchat项目的Docker化部署
-- **文件**: [实习日志/6.md](实习日志/6.md)  
-- **概要**: 探索了跨平台兼容性和依赖管理的最佳策略，成功将Langchain-Chatchat项目部署到多种环境中。  
-- **关键技术**:  
-  - ⚙️ 多架构支持  
-  - 🐳 Docker BuildKit  
-  - 📂 多层次依赖管理  
-
-### 7. Docker容器化部署实践
-- **文件**: [实习日志/7.md](实习日志/7.md)  
-- **概要**: 从开发到部署的容器化工作流记录，涵盖了配置同步和CI/CD集成的详细步骤。  
-- **关键技术**:  
-  - 🔧 配置文件管理  
-  - 🔀 CI/CD流程自动化  
-  - 📡 容器网络调优  
-
-### 8. Python虚拟环境与开发环境配置
-- **文件**: [实习日志/8.md](实习日志/8.md)  
-- **概要**: 深入探讨Python虚拟环境的创建、管理及其在跨平台开发中的应用。  
-- **关键技术**:  
-  - 🐍 虚拟环境自动化创建  
-  - ✅ 依赖锁定与版本控制  
-  - 💻 平台兼容性优化  
-
-### 9. Python跨平台开发与依赖管理
-- **文件**: [实习日志/9.md](实习日志/9.md)  
-- **概要**: 针对跨平台开发中的依赖管理挑战，提出了一系列高效的解决方案。  
-- **关键技术**:  
-  - 🏷️ 平台特定依赖处理  
-  - 🔐 SSL配置  
-  - ⚡ pip优化策略  
-
-### 10. Mac环境下的Python虚拟环境与FastAPI部署
-- **文件**: [实习日志/10.md](实习日志/10.md)  
-- **概要**: 解决了Mac系统环境下的包管理问题，成功部署了高性能FastAPI服务。  
-- **关键技术**:  
-  - 🚀 异步API服务  
-  - 🔏 SSL证书验证  
-  - 🍎 系统依赖管理  
-
-### 11. 虚拟化技术与系统架构选择
-- **文件**: [实习日志/11.md](实习日志/11.md)  
-- **概要**: 分析了VMware Fusion在虚拟化能力与ARM架构支持中的表现，提供了技术选型建议。  
-- **关键技术**:  
-  - 🏗️ 虚拟化选型  
-  - ⚙️ 性能调优  
-  - 🔗 跨平台兼容性优化  
-
-### 12. 图像对比系统的自适应内存管理
-- **文件**: [实习日志/12.md](实习日志/12.md)  
-- **概要**: 提出了通过显存监控和动态调整图像质量优化内存使用的策略。  
-- **关键技术**:  
-  - 💾 显存优化  
-  - ⚖️ 自适应参数调优  
-  - ♻️ 批处理策略  
-
-### 13. VMware Fusion虚拟机的创建与管理
-- **文件**: [实习日志/13.md](实习日志/13.md)  
-- **概要**: 系统性记录了虚拟机的配置与管理操作，涵盖从ISO镜像管理到硬件优化的完整流程。  
-- **关键技术**:  
-  - 💿 虚拟机生命周期管理  
-  - 🔧 UEFI引导  
-  - 🚦 硬件模拟优化  
-
-### 14. 网络配置与远程开发环境
-- **文件**: [实习日志/14.md](实习日志/14.md)  
-- **概要**: 探讨了远程开发环境的搭建和网络配置优化的最佳实践。  
-- **关键技术**:  
-  - 📡 SSH远程开发  
-  - 🌐 网络代理  
-  - 🔎 环境隔离  
-
-### 15. 虚拟机网络配置与开发工具链整合
-- **文件**: [实习日志/15.md](实习日志/15.md)  
-- **概要**: 集成了多种开发工具链并优化了虚拟机的网络配置。  
-- **关键技术**:  
-  - ⚙️ 网络模式优化  
-  - 🐞 远程调试  
-  - 📦 工具链管理  
-
-### 16. ARM虚拟机部署与PDF处理优化
-- **文件**: [实习日志/16.md](实习日志/16.md)  
-- **概要**: 记录了PDF处理与ARM架构环境适配中的问题及其解决方案。  
-- **关键技术**:  
-  - 📄 PDF解析与处理  
-  - 💻 ARM架构优化  
-  - 🔗 多平台支持  
-
-### 17. Docker显存优化与异步编程实践
-- **文件**: [实习日志/17.md](实习日志/17.md)  
-- **概要**: 提升了Docker环境下显存的利用效率，并优化了异步操作的实现。  
-- **关键技术**:  
-  - 🐳 显存分配优化  
-  - ⚙️ 异步任务管理  
-  - 🧵 多线程编程  
-
-### 18. API服务器配置与版本控制
-- **文件**: [实习日志/18.md](实习日志/18.md)  
-- **概要**: 从网络配置到版本管理的全流程优化。  
-- **关键技术**:  
-  - 🔗 API架构设计  
-  - 🏷️ 版本控制策略  
-  - 🐳 容器化部署  
-
-### 19. AI场景开发与性能优化
-- **文件**: [实习日志/19.md](实习日志/19.md)  
-- **概要**: 开发了创新性的AI场景应用，并显著提升了系统性能。  
-- **关键技术**:  
-  - 🤖 模型优化  
-  - ⚡ 响应缓存  
-  - 🚦 并发处理  
-
-### 20. Python企业级应用开发实践
-- **文件**: [实习日志/20.md](实习日志/20.md)  
-- **概要**: 探讨如何构建健壮的Python企业级应用程序。  
-- **关键技术**:  
-  - ⚙️ 异步操作  
-  - ♻️ 资源池管理  
-  - 💉 依赖注入  
-
-### 21. 保健食品广告自动审查系统
-- **文件**: [实习日志/21.md](实习日志/21.md)  
-- **概要**: 开发了专门用于保健食品广告合规审查的自动化系统。  
-- **关键技术**:  
-  - 🏷️ LLM应用  
-  - 👀 多模态数据分析  
-  - ✅ 规则引擎  
-
-### 22. 数据验证与模型优化实践
-- **文件**: [实习日志/22.md](实习日志/22.md)  
-- **概要**: 探讨如何构建高效的数据验证与模型优化流程。  
-- **关键技术**:  
-  - 🧹 数据清洗  
-  - ⚙️ 模型调优  
-  - 🧪 验证框架  
-
-### 23. Mac开发环境与网络配置
-- **文件**: [实习日志/23.md](实习日志/23.md)  
-- **概要**: 优化了Mac开发环境的配置，增强了网络性能。  
-- **关键技术**:  
-  - 🍎 环境变量配置  
-  - 🔎 代理管理  
-  - 🔎 性能监控  
-
-### 24. 视觉识别与LLM优化
-- **文件**: [实习日志/24.md](实习日志/24.md)  
-- **概要**: 结合视觉模型和LLM进行了多模态优化实践。  
-- **关键技术**:  
-  - 🏞️ 图文数据融合  
-  - ✂️ 模型剪枝  
-  - 💡 提示词设计  
-
-### 25. 广告审核与模型训练
-- **文件**: [实习日志/25.md](实习日志/25.md)  
-- **概要**: 聚焦广告内容审核的技术难点及模型训练优化。  
-- **关键技术**:  
-  - 🏷️ 深度学习  
-  - ⚙️ 模型训练流水线  
-  - 🔬 数据增强  
-
-### 26. 多模态广告审核系统
-- **文件**: [实习日志/26.md](实习日志/26.md)  
-- **概要**: 基于ReAct架构设计了一套完整的广告审核系统。  
-- **关键技术**:  
-  - 👓 多模态分析  
-  - 🌀 动态推理  
-  - 🔗 流程自动化  
-
-### 27. Docker性能调优实践
-- **文件**: [实习日志/27.md](实习日志/27.md)  
-- **概要**: 通过多项技术优化Docker的运行效率。  
-- **关键技术**:  
-  - 📦 镜像缓存  
-  - 🏭 多阶段构建  
-  - 📡 网络优化  
-
-### 28. Python数据分析与自动化
-- **文件**: [实习日志/28.md](实习日志/28.md)  
-- **概要**: 实现了数据采集、清洗和分析的全流程自动化。  
-- **关键技术**:  
-  - 🔄 数据管道构建  
-  - 🤖 自动化脚本  
-  - 📊 统计建模  
-
-### 29. 实时数据处理与优化实践
-- **文件**: [实习日志/29.md](实习日志/29.md)  
-- **概要**: 构建了实时数据处理框架，并优化了关键路径。  
-- **关键技术**:  
-  - 🔄 流处理框架  
-  - ⏰ 任务调度  
-  - 💾 内存管理  
-
-### 30. 异步操作与资源管理优化
-- **文件**: [实习日志/30.md](实习日志/30.md)  
-- **概要**: 提升了异步操作的可靠性与资源利用效率。  
-- **关键技术**:  
-  - ⚙️ 任务队列  
-  - 🔁 事件驱动  
-  - 💡 动态资源分配  
-
-### 31. 多模态模型与广告分析
-- **文件**: [实习日志/31.md](实习日志/31.md)  
-- **概要**: 集成了多模态模型用于复杂广告内容的分析。  
-- **关键技术**:  
-  - 🖼️ 图像编码器  
-  - 📝 文本解码器  
-  - ♻️ 显存优化  
-
-### 32. 网络代理技术解析
-- **文件**: [实习日志/32.md](实习日志/32.md)  
-- **概要**: 深入解析了网络代理技术在复杂场景下的应用。  
-- **关键技术**:  
-  - 🌐 系统代理  
-  - 🎛️ TUN模式  
-  - 🛰️ DNS劫持  
-
-### 33. ReAct架构与推理实践
-- **文件**: [实习日志/33.md](实习日志/33.md)  
-- **概要**: 探索了ReAct架构在复杂推理场景中的实际应用，详细记录了多步推理的策略和实现方法。  
-- **关键技术**:  
-  - ♻️ 动态推理链路  
-  - 🔎 多步决策优化  
-  - 💡 提示词工程  
-
-### 34. GPU资源管理与优化
-- **文件**: [实习日志/34.md](实习日志/34.md)  
-- **概要**: 针对高性能计算中的GPU资源使用，提出了一系列优化方案，并分析了显存管理的最佳实践。  
-- **关键技术**:  
-  - 🖥️ 显存分配优化  
-  - 🧮 梯度检查点  
-  - 🌀 批处理动态调整  
-
-### 35. ReAct技术选择指南
-- **文件**: [实习日志/35.md](实习日志/35.md)  
-- **概要**: 提供了ReAct技术在多场景中的选型和应用参考，结合实际案例分析其优缺点。  
-- **关键技术**:  
-  - 🔎 场景评估框架  
-  - ⚖️ 决策支持  
-  - 🔁 错误恢复机制  
-
-### 36. 智能法规审核系统
-- **文件**: [实习日志/36.md](实习日志/36.md)  
-- **概要**: 开发了一套基于ReAct架构的智能法规审核系统，提升了多模态法规合规分析的效率。  
-- **关键技术**:  
-  - 🏗️ 模块化设计  
-  - 👀 多模态数据处理  
-  - 💡 提示词优化  
-
-### 37. 基于LLM的广告审核系统
-- **文件**: [实习日志/37.md](实习日志/37.md)  
-- **概要**: 利用大语言模型（LLM）设计并实现了广告内容自动审核系统，显著提升了审核速度与准确性。  
-- **关键技术**:  
-  - 📑 文本分类与解析  
-  - 👓 多模态数据融合  
-  - ⚙️ 模型优化  
-
-### 38. Python与百度地图API集成
-- **文件**: [实习日志/38.md](实习日志/38.md)  
-- **概要**: 结合百度地图API，构建了自动化小区分析工具，实现了地理数据的高效处理与可视化。  
-- **关键技术**:  
-  - 🗺️ 地理信息处理  
-  - 🔌 API集成  
-  - ⚡ 批量数据请求优化  
-
-### 39. 自动化小区分析实践
-- **文件**: [实习日志/39.md](实习日志/39.md)  
-- **概要**: 从地址提取到地理信息数据分析，开发了一套全流程自动化小区分析系统。  
-- **关键技术**:  
-  - 🔍 数据爬取与清洗  
-  - 📝 正则表达式  
-  - 📊 数据可视化  
-
-### 40. 保健食品广告智能审核系统
-- **文件**: [实习日志/40.md](实习日志/40.md)  
-- **概要**: 构建了一套完整的保健食品广告智能审核系统,实现了从文件处理到安全部署的全流程自动化。  
-- **关键技术**:  
-  - 🔍 多模态分析  
-  - 🛡️ 访问控制  
-  - 🔒 数据安全  
-  - 🚀 自动化部署  
-
-### 41. 构建可靠的 LLM 工具调用系统
-- **文件**: [实习日志/41.md](实习日志/41.md)  
-- **概要**: 深入探讨了如何构建可靠的LLM工具调用框架,确保模型真实执行工具调用而不是生成虚假结果。  
-- **关键技术**:  
-  - 🔄 状态管理  
-  - 🛠️ 工具调用验证  
-  - 📝 提示词工程  
-  - 🔍 结果验证  
-
-### 42. 规则解析器的设计与演进
-- **文件**: [实习日志/42.md](实习日志/42.md)  
-- **概要**: 详细记录了规则解析器从复杂到简约的演进过程，探讨了如何通过持续优化提升系统性能和可维护性。  
-- **关键技术**:  
-  - 🔄 异步处理  
-  - 🗃️ 缓存机制  
-  - 🛠️ 错误处理  
-  - 📊 性能优化  
-
-### 43. 大规模法规文本的智能分段处理
-- **文件**: [实习日志/43.md](实习日志/43.md)  
-- **概要**: 探讨了如何高效处理大规模法规文本，实现了智能分段算法和上下文保持机制。  
-- **关键技术**:  
-  - 📝 智能分段  
-  - 🔄 上下文维护  
-  - 🚀 并行处理  
-  - 💾 缓存优化  
-
-### 44. 基于 Pydantic 的规则模型设计
-- **文件**: [实习日志/44.md](实习日志/44.md)  
-- **概要**: 介绍了如何使用 Pydantic 构建类型安全的规则模型，实现了强大的数据验证功能。  
-- **关键技术**:  
-  - ✅ 类型验证  
-  - 🔍 数据校验  
-  - 📚 模型设计  
-  - 🛠️ 自定义验证器  
-
-### 45. 规则结构的优化与简化
-- **文件**: [实习日志/45.md](实习日志/45.md)  
-- **概要**: 记录了规则结构从复杂到简约的优化过程，展示了如何通过结构简化提升系统效率。  
-- **关键技术**:  
-  - 🏗️ 结构优化  
-  - 📊 数据迁移  
-  - ⚡ 性能提升  
-  - 🔄 验证机制  
-
----
-
-## 🛠️ 技术栈
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-</div>
-
-本日志涵盖以下技术领域：
-
-- **编程语言与框架**: Python, FastAPI  
-- **容器与虚拟化**: Docker, VMware Fusion, Kubernetes  
-- **深度学习与AI模型**: LLM, 多模态模型（如Qwen2-VL）  
-- **网络技术与配置**: 系统代理、TUN模式、DNS优化  
-- **数据分析与流处理**: Pandas, NumPy, 实时数据框架  
-- **分布式计算与资源管理**: 多GPU并行计算、动态批处理优化  
-
----
-
-## 🚀 如何使用（Quick Start）
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white"/>
-</div>
-
-1. **克隆本仓库**  
-   ```bash
-   git clone https://github.com/PDGGK/ai_intership_log.git
-   ```
-
-2. **阅读或借鉴日志**  
-   - 直接浏览 `.md` 文件，或在本地通过任意 Markdown 编辑器打开。
-
-3. **提交改进建议**  
-   - 欢迎在 Issue 区提出问题或优化思路，也可以直接发起 Pull Request。
-
----
-
-## 🎯 未来计划
-
-<div align="center">
-  <img src="https://img.shields.io/badge/CI/CD-2088FF?style=flat-square&logo=github-actions&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Automation-4285F4?style=flat-square&logo=google-cloud&logoColor=white"/>
-</div>
-
-- ⚡ **扩展内容**：增补更多代码示例与行业应用案例，为读者提供直观的可执行性示例。  
-- 🤝 **社区合作**：期待更多研究者与工程师的意见与分享，共同丰富本仓库内容。  
-- 🤖 **工具链自动化**：引入自动化脚本和CI/CD，批量管理日志并进行性能分析。  
-
----
-
-## 🙌 致谢
-
-感谢研究过程中提供支持的导师与团队。  
-本日志凝聚了实践经验与理论探索，希望能为博士研究者及工程实践者提供严谨且有价值的参考。  
-
-🙏 同时感谢在 Issue 与 Pull Request 中提供反馈的所有朋友，让此项目不断完善与成长。
-
----
-
-> **欢迎通过 Issue 或 Pull Request 提出改进建议！**  
->  
-> 祝阅读与学习愉快！✨
->
+### English Logs
+
+0. [[English_Internship_Logs/0|💻 Deep Learning Model Optimization: Memory Management and Dynamic Batch Processing]]
+1. [[English_Internship_Logs/1|🖼️ Image Comparison System Optimization: Enhanced Configuration and Error Handling]]
+2. [[English_Internship_Logs/2|🐳 Docker and Conda Environment Configuration: Dependency Management Integration]]
+3. [[English_Internship_Logs/3|⚙️ Docker Ecosystem and Development Environment: Best Practices Explained]]
+4. [[English_Internship_Logs/4|⚡ Docker Configuration Optimization: Mirror Sources and Network Settings]]
+5. [[English_Internship_Logs/5|🏭 Docker Environment Configuration and Best Practices: From Basics to Advanced]]
+6. [[English_Internship_Logs/6|🌐 Docker Deployment of Langchain-Chatchat: Cross-Platform Compatibility Solutions]]
+7. [[English_Internship_Logs/7|🚧 Docker Containerization Practices: From Development to Production Workflow]]
+8. [[English_Internship_Logs/8|🐍 Python Virtual Environments and Development Configuration: Toolchain and Dependencies]]
+9. [[English_Internship_Logs/9|🖥️ Python Cross-Platform Development and Dependency Management: Solutions and Optimizations]]
+10. [[English_Internship_Logs/10|🍎 Python Virtual Environments and FastAPI Deployment on Mac: Comprehensive Guide]]
+11. [[English_Internship_Logs/11|🏗️ Virtualization Technology and System Architecture: Balancing Efficiency and Performance]]
+12. [[English_Internship_Logs/12|🔍 Image Comparison System Adaptive Memory Management: Dynamic Optimization and Monitoring]]
+13. [[English_Internship_Logs/13|💿 VMware Fusion Virtual Machine Creation and Management: Detailed Operation Steps]]
+14. [[English_Internship_Logs/14|🌐 Network Configuration and Remote Development Environment: Efficient Development Key]]
+15. [[English_Internship_Logs/15|📡 Virtual Machine Network Configuration and Development Toolchain Integration: Multi-Tool Collaboration Practice]]
+16. [[English_Internship_Logs/16|⚙️ ARM Virtual Machine Deployment and PDF Processing Optimization: New Architecture Support]]
+17. [[English_Internship_Logs/17|🐳 Docker Memory Optimization and Asynchronous Programming Practice: Resource Efficient Utilization]]
+18. [[English_Internship_Logs/18|🔨 API Server Configuration and Version Control: High Performance and Stability]]
+19. [[English_Internship_Logs/19|🤖 AI Scenario Development and Performance Optimization: Innovative Technical Practice]]
+20. [[English_Internship_Logs/20|🏢 Python Enterprise Application Development Practice: Asynchronous Operation and Resource Management]]
+21. [[English_Internship_Logs/21|🏷️ Health Food Advertisement Automatic Review System: Multi-Dimensional Compliance Verification]]
+22. [[English_Internship_Logs/22|✅ Data Verification and Model Optimization Practice: From BaseResponse to BaseJudgement]]
+23. [[English_Internship_Logs/23|🍎 Mac Development Environment and Network Configuration: Virtual Machine and Local Environment Selection]]
+24. [[English_Internship_Logs/24|👀 Visual Recognition and LLM Optimization: Multimodal Analysis of Images and Text]]
+25. [[English_Internship_Logs/25|📊 Advertisement Review and Model Training: Efficient Solution to Industry Pain Points]]
+26. [[English_Internship_Logs/26|🏷️ Multimodal Advertisement Review System: ReAct Architecture and Toolchain]]
+27. [[English_Internship_Logs/27|⚡ Docker Performance Tuning Practice: Single Point Optimization to Global Improvement]]
+28. [[English_Internship_Logs/28|📈 Python Data Analysis and Automation: Efficiency and Precision Combination]]
+29. [[English_Internship_Logs/29|🔄 Real-Time Data Processing and Optimization Practice: Efficient Stream Processing Framework]]
+30. [[English_Internship_Logs/30|⚙️ Asynchronous Operation and Resource Management Optimization: From Basics to Advanced Application]]
+31. [[English_Internship_Logs/31|👓 Multimodal Model and Advertisement Analysis: Powerful Ability of Text and Image Combination]]
+32. [[English_Internship_Logs/32|🚀 Network Proxy Technology Analysis: Deep Analysis of TUN Mode and System Proxy]]
+33. [[English_Internship_Logs/33|🤔 ReAct Architecture and Reasoning Practice: Exploration and Application of Multi-Step Reasoning]]
+34. [[English_Internship_Logs/34|🖥️ GPU Resource Management and Optimization: Efficient Calculation Key]]
+35. [[English_Internship_Logs/35|📌 ReAct Technology Selection Guide: Scenario Assessment and Decision Reference]]
+36. [[English_Internship_Logs/36|📚 Intelligent Regulatory Compliance Review System: Modular Design and Prompt Optimization]]
+37. [[English_Internship_Logs/37|💡 LLM-Based Intelligent Advertisement Review System: Practical Application of Multimodal AI]]
+38. [[English_Internship_Logs/38|🗺️ Python and Baidu Map API Integration: Automated Community Analysis]]
+39. [[English_Internship_Logs/39|🏙️ Automated Community Analysis Practice: From Address Extraction to Data Analysis]]
+40. [[English_Internship_Logs/40|📄 Health Food Advertisement Intelligent Review System: Comprehensive Technical Implementation Summary]]
+41. [[English_Internship_Logs/41|🚀 Building a Reliable LLM Tool Calling System: Learning from Practice]]
+42. [[English_Internship_Logs/42|🔄 Rule Parser Design and Evolution: Optimization Path from Complex to Simple]]
+43. [[English_Internship_Logs/43|📚 Intelligent Segmentation Processing for Large-Scale Regulatory Texts]]
+44. [[English_Internship_Logs/44|✅ Rule Model Design Based on Pydantic]]
+45. [[English_Internship_Logs/45|🏗️ Rule Structure Optimization and Simplification]]
+
+## 🧠 知识图谱
+## 🧠 Knowledge Map
+
+为了更好地组织和关联这些技术学习内容，本仓库使用 Foam 创建了知识图谱，帮助在不同概念和技术之间建立连接。
+
+To better organize and connect these technical learning contents, this repository uses Foam to create knowledge maps that help establish connections between different concepts and technologies.
+
+- [中文知识图谱](知识图谱.md) - 按主题分类的中文技术知识点集合
+- [English Knowledge Map](Knowledge_Map.md) - Collection of technical knowledge points categorized by topic in English
+
+知识图谱覆盖了以下核心领域：
+
+The knowledge maps cover the following core areas:
+
+1. **技术架构与框架 / Technical Architecture & Frameworks**
+   - ReAct架构 / ReAct Architecture
+   - 模块化系统设计 / Modular System Design
+   - FastAPI应用开发 / FastAPI Application Development
+
+2. **大语言模型应用 / Large Language Model Applications**
+   - 提示词工程 / Prompt Engineering
+   - 工具调用 / Tool Calling
+   - 多模态分析 / Multimodal Analysis
+   - LLM输出解析与后处理 / LLM Output Parsing and Post-processing
+
+3. **数据处理与验证 / Data Processing & Validation**
+   - 规则解析 / Rule Parsing
+   - 数据模型 / Data Models
+   - 文本处理 / Text Processing
+   - JSON处理 / JSON Processing
+
+4. **系统优化与最佳实践 / System Optimization & Best Practices**
+   - 性能优化 / Performance Optimization
+   - 错误处理 / Error Handling
+   - 缓存策略 / Caching Strategies
+   - 数据迁移与重构 / Data Migration & Refactoring
+   - 异步编程模式 / Asynchronous Programming Patterns
+
+5. **测试与监控 / Testing & Monitoring**
+   - 测试策略 / Testing Strategies
+   - 日志与监控 / Logging & Monitoring
+
+6. **工程实践与项目管理 / Engineering Practices & Project Management**
+   - 代码组织与设计模式 / Code Organization & Design Patterns
+   - 版本管理与演进 / Version Management & Evolution
+
+## 💼 实习项目概述
+## 💼 Internship Project Overview
+
+在为期三个月的实习期间，我作为AI研发工程师参与了企业级智能审核系统的研发工作。该项目旨在重构传统的广告审核流程，提高效率和准确率。
+
+During my three-month internship, I worked as an AI Development Engineer on the development of an enterprise-level intelligent review system. The project aimed to restructure traditional advertisement review processes to improve efficiency and accuracy.
+
+### 项目背景
+### Project Background
+
+在医疗器械、保健食品等特殊领域，广告内容的合规性审核具有很强的专业性和复杂性。传统的人工审核模式面临着效率低下、标准不统一、难以规模化等多重挑战。
+
+In specialized fields such as medical devices and health foods, compliance review of advertisement content requires strong professional knowledge and complexity management. Traditional manual review processes face multiple challenges: low efficiency, inconsistent standards, and difficulties in scaling.
+
+### 技术架构演进
+### Technical Architecture Evolution
+
+项目经历了三个关键阶段：
+
+The project went through three key stages:
+
+1. **基础功能构建**：实现OCR和基础图像分析功能，但遇到显存管理、准确率和性能问题
+2. **架构重构与优化**：设计智能显存管理系统，引入多模态AI模型，实现异步处理框架
+3. **智能化升级**：实现基于ReAct的决策系统，模拟人类专家思维方式进行多步推理和验证
+
+1. **Basic Functionality Development**: Implemented OCR and basic image analysis capabilities, but encountered memory management, accuracy, and performance issues
+2. **Architecture Restructuring and Optimization**: Designed intelligent memory management systems, introduced multimodal AI models, and implemented asynchronous processing frameworks
+3. **Intelligence Upgrade**: Implemented a ReAct-based decision system that simulates human expert thinking for multi-step reasoning and verification
+
+### 技术亮点
+### Technical Highlights
+
+- **智能显存管理**：通过实时监控和动态调整，显存使用峰值降低75%，处理成功率达99.9%
+- **多模态AI集成**：结合视觉和语言模型，系统准确率提升至95%以上
+- **异步处理框架**：通过并行处理和资源池化，响应时间从小时级降至分钟级
+- **ReAct决策机制**：结合思维链和工具调用，实现复杂场景下的多步推理
+
+- **Intelligent Memory Management**: Through real-time monitoring and dynamic adjustments, peak memory usage was reduced by 75%, with a 99.9% processing success rate
+- **Multimodal AI Integration**: By combining vision and language models, system accuracy improved to over 95%
+- **Asynchronous Processing Framework**: Through parallel processing and resource pooling, response time was reduced from hours to minutes
+- **ReAct Decision Mechanism**: Combined chain-of-thought with tool calling to achieve multi-step reasoning in complex scenarios
+
+## 🔍 核心技术实践
+## 🔍 Core Technical Practices
+
+以下技术实践在实习期间得到了深入应用：
+
+The following technical practices were deeply applied during the internship:
+
+### 大语言模型应用
+### Large Language Model Applications
+
+- **提示词工程**：设计结构化提示模板，实现精确的指令控制和输出格式化
+- **工具调用**：构建可靠的工具调用机制，处理边缘情况和容错机制
+- **多模态分析**：实现图文一体化分析，提取关键信息并进行交叉验证
+
+- **Prompt Engineering**: Designed structured prompt templates for precise instruction control and output formatting
+- **Tool Calling**: Built reliable tool calling mechanisms with edge case handling and fault tolerance
+- **Multimodal Analysis**: Implemented integrated text-image analysis with key information extraction and cross-verification
+
+### 规则处理与验证
+### Rule Processing and Validation
+
+- **规则解析器**：设计高效灵活的规则解析系统，将法规文本转化为结构化数据
+- **大文本处理**：实现智能分段算法，处理超长文本的内容理解和上下文维护
+- **规则模型设计**：基于Pydantic构建类型安全的数据模型，实现自动验证
+
+- **Rule Parser**: Designed an efficient and flexible rule parsing system to transform regulatory text into structured data
+- **Large Text Processing**: Implemented intelligent segmentation algorithms for handling extra-long text comprehension and context maintenance
+- **Rule Model Design**: Built type-safe data models based on Pydantic for automatic validation
+
+### 系统优化
+### System Optimization
+
+- **性能调优**：实现多级缓存、并行处理和资源池化，显著提升系统响应速度
+- **错误处理**：设计多层次异常捕获和优雅降级策略，提高系统稳定性
+- **数据迁移**：设计数据结构优化和迁移方案，大幅降低存储空间和提升处理速度
+
+- **Performance Tuning**: Implemented multi-level caching, parallel processing, and resource pooling to significantly improve system response time
+- **Error Handling**: Designed multi-level exception catching and graceful degradation strategies to enhance system stability
+- **Data Migration**: Designed data structure optimization and migration plans to greatly reduce storage space and improve processing speed
+
+## 📚 阅读指南
+## 📚 Reading Guide
+
+本仓库中的日志按时间顺序编号，但可以根据以下主题分类阅读：
+
+The logs in this repository are numbered chronologically, but can be read according to the following thematic categories:
+
+### Docker 与环境配置
+### Docker and Environment Configuration
+
+- [[实习日志/2|Docker与Conda环境配置]] / [[English_Internship_Logs/2|Docker and Conda Environment Configuration]]
+- [[实习日志/3|Docker生态系统与开发环境配置]] / [[English_Internship_Logs/3|Docker Ecosystem and Development Environment]]
+- [[实习日志/4|Docker环境配置优化]] / [[English_Internship_Logs/4|Docker Configuration Optimization]]
+- [[实习日志/5|Docker环境配置与最佳实践]] / [[English_Internship_Logs/5|Docker Environment Configuration and Best Practices]]
+
+### FastAPI 应用开发
+### FastAPI Application Development
+
+- [[实习日志/1|图像对比系统优化]] / [[English_Internship_Logs/1|Image Comparison System Optimization]]
+- [[实习日志/10|Mac环境下的Python虚拟环境与FastAPI部署]] / [[English_Internship_Logs/10|Python Virtual Environments and FastAPI Deployment on Mac]]
+- [[实习日志/26|FastAPI图像比对功能开发与优化]] / [[English_Internship_Logs/26|FastAPI Image Comparison Development and Optimization]]
+- [[实习日志/29|FastAPI系统错误处理与健壮性优化]] / [[English_Internship_Logs/29|FastAPI System Error Handling and Robustness Optimization]]
+
+### LLM 与智能系统
+### LLM and Intelligent Systems
+
+- [[实习日志/36|基于ReAct架构的智能法规审核系统]] / [[English_Internship_Logs/36|Design and Implementation of an Intelligent Regulatory Compliance Review System]]
+- [[实习日志/37|基于大语言模型的智能广告审核系统]] / [[English_Internship_Logs/37|Design and Implementation of an LLM-Based Intelligent Advertisement Review System]]
+- [[实习日志/40|保健食品广告智能审核系统]] / [[English_Internship_Logs/40|Health Food Advertisement Intelligent Review System]]
+- [[实习日志/41|构建可靠的LLM工具调用系统]] / [[English_Internship_Logs/41|Building a Reliable LLM Tool Calling System]]
+
+### 数据处理与优化
+### Data Processing and Optimization
+
+- [[实习日志/42|规则解析器的设计与演进]] / [[English_Internship_Logs/42|Design and Evolution of a Rule Parser]]
+- [[实习日志/43|大规模法规文本的智能分段处理]] / [[English_Internship_Logs/43|Intelligent Segmentation Processing for Large-Scale Regulatory Texts]]
+- [[实习日志/44|基于Pydantic的规则模型设计]] / [[English_Internship_Logs/44|Rule Model Design Based on Pydantic]]
+- [[实习日志/45|规则结构的优化与简化]] / [[English_Internship_Logs/45|Rule Structure Optimization and Simplification]]
+
+## 📊 技能成长
+## 📊 Skill Growth
+
+通过这段学习与实践经历，我的技术能力在以下方面得到了显著提升：
+
+Through this learning and practical experience, my technical abilities have significantly improved in the following areas:
+
+### 技术深度
+### Technical Depth
+
+- **AI应用开发**：从基础模型应用到复杂系统集成
+- **系统架构设计**：从单一功能实现到模块化、可扩展架构
+- **性能优化**：掌握内存管理、并发控制、资源调度等核心技术
+
+- **AI Application Development**: From basic model application to complex system integration
+- **System Architecture Design**: From single function implementation to modular, extensible architecture
+- **Performance Optimization**: Mastered core technologies in memory management, concurrency control, and resource scheduling
+
+### 工程实践
+### Engineering Practice
+
+- **开发流程**：掌握需求分析、架构设计、开发测试的完整流程
+- **质量保障**：建立健全的测试、日志和监控体系
+- **持续优化**：通过数据驱动的方法持续改进系统性能
+
+- **Development Process**: Mastered the complete process of requirement analysis, architecture design, and development testing
+- **Quality Assurance**: Established robust testing, logging, and monitoring systems
+- **Continuous Optimization**: Continuously improved system performance through data-driven methods
+
+### 业务理解
+### Business Understanding
+
+- **领域知识**：深入理解广告审核领域的专业知识和法规要求
+- **价值转化**：将技术创新转化为业务价值，提升效率和准确率
+- **用户视角**：从用户需求出发，优化系统交互和体验
+
+- **Domain Knowledge**: Deeply understood professional knowledge and regulatory requirements in the advertisement review field
+- **Value Transformation**: Transformed technical innovation into business value, improving efficiency and accuracy
+- **User Perspective**: Optimized system interaction and experience starting from user needs
+
+## 🔗 联系方式
+## 🔗 Contact Information
+
+如有任何问题或合作意向，欢迎通过以下方式联系：
+
+If you have any questions or are interested in collaboration, please feel free to contact me through:
+
+- 📧 Email: 1436286758@qq.com
+- 💼 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+- 🌐 GitHub: [PDGGK](https://github.com/PDGGK)
+
+感谢您的访问，希望这些内容对您有所帮助！
+
+Thank you for visiting, and I hope these contents are helpful to you!
